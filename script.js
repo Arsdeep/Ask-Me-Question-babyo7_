@@ -102,7 +102,7 @@ again.onclick = () => {
     dices.style.display="block"
     succ.style.display = "none";
     ask.style.color="black";
-    send.value="Send Message 💌"
+    send.value="Send Message"
     question.value=``;
    
 }
