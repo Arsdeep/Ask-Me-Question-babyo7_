@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+
+ 
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+   
+}
+.big {
+
+    margin: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+   
+    
+   
+    margin-top: 70px;
+   position: relative;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+   
+    padding-right: 0px;
+    padding-left: 14px;
+    padding-top: 30px;
+ 
+}
+
+#send {
+ cursor: pointer;
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+color: rgb(255, 255, 255);
+font-size: 17px;
+
+}
+
+#send:hover {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#ask {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 17px;
+    width: 370px;
+    border-radius: 17px;
+    border: none;
+
+background: rgba(255, 255, 255, 0.39);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    resize: none;
+    padding: 10px;
+    padding-left: 20px;
+    height: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#ask:focus{
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.circle{
+    cursor: pointer;
+    border: 1px solid;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-image: url(p.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:none;
+    
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(0, 0, 0, 0.203);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(0, 0, 0, 0.203);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(0, 0, 0, 0.203);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(0, 0, 0, 0.203);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgba(0, 0, 0, 0.203);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    rgba(0, 0, 0, 0.203);
+}
+
+.nav{
+    display: flex;
+    margin: 0px;
+    width: 500px;
+}
+
+h1{
+color: whitesmoke;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -3px;
+
+    
+ 
+}
+
+
+#success{
+ display: none;
+    color: white;
+    font-size: 17px;
+    width: 270px;
+    border-radius: 17px;
+    border: none;
+
+background: rgba(255, 255, 255, 0.44);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+     align-items: center;
+     text-align: center;
+    position: absolute;
+    
+     
+}
+h2{
+    margin-top: 30px;
+}
+
+#again{
+    background: rgba(255, 255, 255, 0.086);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+  
+    margin-top: 10px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+color: rgb(255, 255, 255);
+background-color: black;
+    height: 40px;
+
+}
+
+#again:hover{
+    background-color: black;
+}
+
+p{
+    cursor: pointer;
+
+    color: rgb(215, 215, 215);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+#dice{
+cursor: pointer;
+height: 30px;
+width: 30px;
+position: absolute;
+top: 210px;
+margin-left: 360px;
+
+}
+
+#insta{
+    display: none;
+    position: absolute;
+    top: 200px;
+    margin-left: 300px;
+    font-weight: 700;
+}
+
+#not{
+    margin: 0px; 
+    margin-left: 10px; 
+    color: yellow; 
+    display: none;
+}
+
+
+
+@media screen and (max-width: 800px){
+body{
+   
+ 
+    background-image: url(bg.png);
+    background-position: center;
+   
+    background-size: cover;
+}
+.box{
+    margin-top: 100px;
+
+}
+p{
+    
+    margin-left: -27px;
+}
+#link{
+    font-weight: 700;
+    color: whitesmoke;
+}
+ #ask{
+    height: 100px;
+    width: 320px;
+    margin-left: 13px;
+ }
+ #send{
+
+    width: 349px;
+    margin-left: 13px;
+
+ }
+ .circle{
+    margin-left: 15px;
+ }
+
+ h1{
+
+        margin-top: 2px;
+    
+    font-size: 27px;
+ }
+ #dice{
+    top: 180px;
+    margin-left: -40px;
+ }
+ #not{
+    margin: 0px; 
+    margin-left: 20px; 
+    color: yellow; 
+    display: none;
+}
+
+#insta{
+    display: none;
+    position: absolute;
+    top: 170px;
+    margin-left: 260px;
+    font-weight: 700;
+}
+}
+
