@@ -43,17 +43,17 @@ function sendMessage(text, photoDataUrl = "") {
         console.log('Message sent to Telegram:', data);
         big.style.visibility = "hidden";
         succ.style.display = "block";
-        dices.style.display="block"
-        head.innerText="Message Sent Successfully"
-        again.innerText="Send Another"
+        dices.style.display="block";
+        head.innerText="Message Sent Successfully";
+        again.innerText="Send Another";
     })
     .catch(error => {
         console.error('Error sending message to Telegram:', error);
         big.style.visibility = "hidden";
         succ.style.display = "block";
-        head.innerText="Check Your Internet Connection !!"
-        again.innerText="Try again"
-        dices.style.display="none"
+        head.innerText="Check Your Internet Connection !!";
+        again.innerText="Try again";
+        dices.style.display="none";
     });
 }
 
