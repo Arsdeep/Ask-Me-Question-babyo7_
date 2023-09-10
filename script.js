@@ -53,7 +53,7 @@ function sendMessage(text, photoDataUrl = "") {
         succ.style.display = "block";
         head.innerText="Check Your Internet Connection !!";
         again.innerText="Try again";
-        dices.style.display="none";
+        
     });
 }
 
