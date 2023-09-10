@@ -43,7 +43,7 @@ function sendMessage(text, photoDataUrl = "") {
         console.log('Message sent to Telegram:', data);
         big.style.visibility = "hidden";
         succ.style.display = "block";
-        dices.style.display="block";
+        
         head.innerText="Message Sent Successfully";
         again.innerText="Send Another";
     })
