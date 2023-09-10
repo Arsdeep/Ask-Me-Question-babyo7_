@@ -100,7 +100,7 @@ send.onclick = () => {
 
 again.onclick = () => {
     big.style.visibility = "visible";
-    dices.style.display="block"
+    dices.style.display="block";
     succ.style.display = "none";
     ask.style.color="black";
     send.value="Send Message"
